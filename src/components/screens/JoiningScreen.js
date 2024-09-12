@@ -465,7 +465,6 @@ export function JoiningScreen({
                     {!isMobile && (
                       <>
                         <div className="absolute top-2 right-10">
-                          <NetworkStats />
                         </div>
 
                         <div className="flex mt-3">
