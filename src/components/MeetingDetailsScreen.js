@@ -27,7 +27,7 @@ export function MeetingDetailsScreen({
           <button
             className="ml-2"
             onClick={() => {
-              navigator.clipboard.writeText(meetingId);
+              navigator.clipboard.writeText(`Meeting Link : https://video-call-hazel-phi.vercel.app \n Meeting Id: ${meetingId}`);
               setIsCopied(true);
               setTimeout(() => {
                 setIsCopied(false);
